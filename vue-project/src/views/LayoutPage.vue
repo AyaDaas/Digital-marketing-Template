@@ -1,7 +1,7 @@
 <template>
     <br /><br />
     <div class="lg:flex md:flex-wrap">
-        <div class="lg:w-1/2 mt-10">
+        <div class="lg:w-1/2">
             <Photo src="../../public/assets/person1.png"></Photo>
         </div>
         <div class="lg:w-1/2 mt-10">
@@ -145,7 +145,7 @@
 
                 <div class="lg:mx-2 ">
 
-                    <div class="md:flex md:flex-row-reverse  mx-5  justify-around  flex-wrap md:mx-auto">
+                    <div class="md:flex md:flex-row-reverse   justify-around  flex-wrap md:mx-auto">
                         <div class="md:w-1/2   ">
                             <SmallCard variant="text-4xl font-bold text-yellow-700 text-center" title="560k"
                                 desc="DIGITAL GLOBAL AUDIENCE REACH">
@@ -188,7 +188,7 @@
             title="Why We Need Digital Marketing"
             desc="Nec feugiat nsit amet. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero."></title-desc>
 
-        <div class="md:grid grid md:grid-cols-3 grid-cols-2  mx-7 gap-7">
+        <div class="md:grid   md:grid-cols-3 grid-cols-2  mx-5 md:gap-3">
 
             <SmallCard title="SEO" variantdesc="text-sm " desc="DISCOVER, EXPLORE THE PRODUCT">
                 <template #icon>
@@ -257,7 +257,8 @@
                             <div class=" mx-4">
                                 <label>Message</label>
                                 <br>
-                                <textarea placeholder="Enter you Message" class="w-full mb-3 mt-3" rows="5"></textarea>
+                                <textarea placeholder="Enter you Message" class="w-full mb-3 mt-3 p-4 pl-5"
+                                    rows="5"></textarea>
                                 <Button class="px-8 py-3 rounded-lg" label="SUBMIT"></Button>
                             </div>
 
@@ -289,12 +290,12 @@
     </div>
 
 
-    <div class="bg-sky-50  py-24  text-center ">
+    <div class="bg-sky-50  py-16  text-center ">
         <title-desc variantDesc="   text-center text-gray-800" variant="   text-center text-bold text-4xl"
             title="Read What our customers Say" desc="Sample text Click to select the text element."></title-desc>
-        <div class="md:flex mx-4 mb-3">
+        <div class="md:flex mx-4 ">
             <figure
-                class="flex m-3 flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-tr-lg dark:bg-gray-800 dark:border-gray-700">
+                class="flex m-5 flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-tr-lg dark:bg-gray-800 dark:border-gray-700">
                 <blockquote class=" mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                     <h3 class="text-3xl font-semibold text-yellow-500 dark:text-white">
                         <div class="flex">
@@ -317,7 +318,7 @@
                 </figcaption>
             </figure>
             <figure
-                class="flex m-3 flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-tr-lg dark:bg-gray-800 dark:border-gray-700">
+                class="flex m-5 flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-tr-lg dark:bg-gray-800 dark:border-gray-700">
                 <blockquote class=" mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                     <h3 class="text-3xl font-semibold text-yellow-500 dark:text-white">
                         <div class="flex">
@@ -339,6 +340,7 @@
             </figure>
 
         </div>
+        <br>
         <Button class="px-8 py-3 rounded-xl" label="Get started"></Button>
 
 

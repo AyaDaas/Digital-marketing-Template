@@ -2,7 +2,7 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-
+import appFirebase from './firebaseConfig'
 import App from './App.vue'
 import router from './router'
 import Photo from './components/content/Photo.vue';
